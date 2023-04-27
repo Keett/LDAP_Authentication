@@ -141,7 +141,7 @@
             // slDap
             // 
             this.slDap.AutoSize = true;
-            this.slDap.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.slDap.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.slDap.Location = new System.Drawing.Point(144, 215);
             this.slDap.Margin = new System.Windows.Forms.Padding(4);
             this.slDap.Name = "slDap";
@@ -187,7 +187,7 @@
             this.PasswordTxt.PasswordChar = '*';
             this.PasswordTxt.Size = new System.Drawing.Size(365, 22);
             this.PasswordTxt.TabIndex = 3;
-            this.PasswordTxt.Text = "Ket";
+            this.PasswordTxt.Text = "";
             // 
             // label2
             // 
@@ -233,7 +233,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(139, 293);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
@@ -291,7 +291,7 @@
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "LDAP Authentication Test";
+            this.Text = "LDAP Authentication";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
